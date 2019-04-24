@@ -1,11 +1,11 @@
 SparkFun LED Gumball Machine
 ========================================
 
-![SparkFun LED Gumball Machine](https://cdn.sparkfun.com/r/600-600/assets/learn_tutorials/8/9/0/LED_Gumball_Machine-06.jpg)
+-> [![SparkFun LED Gumball Machine](https://cdn.sparkfun.com/r/600-600/assets/learn_tutorials/8/9/0/LED_Gumball_Machine-06.jpg)](https://cdn.sparkfun.com/r/600-600/assets/learn_tutorials/8/9/0/LED_Gumball_Machine-06.jpg) <-
 
 Do you need an LED? The answer is always yes. But what if you need one right **now**? Build yourself an LED gumball machine and never run out again!
 
-![BTU Lab Logo](http://btulab.com.s200635.gridserver.com/wp-content/uploads/2018/03/cropped-btubannerArtboard-1.png)
+-> [![BTU Lab Logo](https://cdn.sparkfun.com/r/600-600/assets/learn_tutorials/8/9/0/BTU_Lab_Logo.jpg)](https://cdn.sparkfun.com/assets/learn_tutorials/8/9/0/BTU_Lab_Logo.jpg) <-
 
 This machine was created for the [CU BTU lab](http://btulab.com) because students constantly needed LEDs but filling parts bins always seemed to fall to the [tragedy of the commons](https://en.wikipedia.org/wiki/Tragedy_of_the_commons). We’d put 1,000 LEDs into the bin and they’d be gone in less than 2 weeks. With the Gumball LED dispenser the LEDs last for more than a semester. It’s amazing how much a 15 second pause will cause people to think twice.
 
