@@ -42,7 +42,7 @@ void setup() {
 }
 
 void loop() {
-  fadeUp();
+  fadeUp(); //Pulse the button LED to entice user interaction
   fadeDown();
 
   if (buttonPressed() == true)
@@ -52,12 +52,14 @@ void loop() {
     //Dispense LEDs
     dispense();
 
-    while (buttonPressed() == true) delay(10);
+    while (buttonPressed() == true) delay(10); //Wait for user to stop pressing button
 
     analogWrite(BUTTON_LED, 0); //Turn off button LED
   }
 }
 
+//Fade an LED up from 0
+//Returns if user presses the button
 void fadeUp()
 {
   if (buttonPressed() == true) return;
@@ -73,6 +75,8 @@ void fadeUp()
   brightness = 255;
 }
 
+//Fade an LED down to 0
+//Returns if user presses the button
 void fadeDown()
 {
   if (buttonPressed() == true) return;
@@ -88,12 +92,15 @@ void fadeDown()
   brightness = 0;
 }
 
+//Checks the state of the button and returns true if pressed
 bool buttonPressed()
 {
   if (digitalRead(BUTTON) == LOW)  return true;
   return false;
 }
 
+//Call any time the user presses the button
+//This function decides whether enough time has passed to dispense or if it should tell the user to go away
 void dispense()
 {
   if (firstDispense == false)
@@ -106,7 +113,7 @@ void dispense()
   else if (millis() - lastDispenseTime < minTimeBetweenPresses)
   {
     Serial.println("Uh-huh Mr. Eager. Wait your turn.");
-    while (digitalRead(BUTTON) == LOW) delay(10);
+    while (digitalRead(BUTTON) == LOW) delay(10); //Wait for user to stop pressing button
     return; //No soup for you!
   }
 
