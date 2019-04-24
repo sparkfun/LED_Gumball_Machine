@@ -1,7 +1,7 @@
 SparkFun LED Gumball Machine
 ========================================
 
-![SparkFun LED Gumball Machine](https://cdn.sparkfun.com//assets/parts/1/3/7/0/0/Scale_Converted_to_Digital_-_SparkFun_Qwiic_Scale.jpg)
+![SparkFun LED Gumball Machine](https://cdn.sparkfun.com/r/600-600/assets/learn_tutorials/8/9/0/LED_Gumball_Machine-06.jpg)
 
 Do you need an LED? The answer is always yes. But what if you need one right **now**? Build yourself an LED gumball machine and never run out again!
 
